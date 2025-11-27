@@ -22,8 +22,11 @@ const Header = () => {
             <img 
               src={voguardLogo} 
               alt="VoGuard Logo" 
-              className="h-10 w-auto object-contain"
+              className="h-12 w-auto object-contain rounded-lg ring-1 ring-white/20 shadow-lg"
             />
+            <span className="text-xl font-bold text-white hidden sm:inline">
+              Vo<span className="text-voguard-teal">Guard</span>
+            </span>
           </a>
 
           {/* Desktop Navigation */}
